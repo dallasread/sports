@@ -7,6 +7,7 @@
     "cheerio": "^0.18.0",
     "handlebars": "^3.0.0",
     "hapi": "^7.5.3",
+    "http": "0.0.0",
     "path": "^0.11.14"
   },
   "devDependencies": {},
