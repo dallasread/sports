@@ -3,7 +3,7 @@ var Hapi = require('hapi'),
   Path = require('path'),
   cheerio = require('cheerio');
 
-var server = new Hapi.Server(5000, "localhost");
+var server = new Hapi.Server(process.env.PORT || 3000, "localhost");
 
 server.views({
   engines: {
